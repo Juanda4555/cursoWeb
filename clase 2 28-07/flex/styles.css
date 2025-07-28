@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: red;
+}
+#padre{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(67, 67, 84);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: end;
+}
+.hijo{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* margin: 10px; */
+}
